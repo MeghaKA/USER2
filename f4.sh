@@ -11,7 +11,7 @@ while true; do
 	case $choice in
 	   1) echo "Current date: $(date)" ;;
 	   2) echo "Current directory: $(pwd)" ;;
-	   3) echo "Exiting..."; exit 0 ;;
+	   3) echo "Exiting...."; exit 0 ;;
 	   *) echo "Invalid option.Please try again." ;;
 	esac
 done
